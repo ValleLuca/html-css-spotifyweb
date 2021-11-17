@@ -10,18 +10,19 @@
 }
 
 .box {
-    background-color: black;
     color: white;
 }
 
 .menu_laterale {
     width: 15%;
     height: 90vh;
+    background-color: #010001;
 }
 
 .song {
     width: 85%;
     height: 90vh;
+    background-color: #151923;
 }
 
 .upgrade {
@@ -77,11 +78,6 @@
     align-items: center;
 }
 
-.container_footer {
-    height: 10vh;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
 .playlist {
     padding: 10px;
 }
@@ -112,3 +108,75 @@
     padding: 15px 0;
     font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container_footer {
+    height: 10vh;
+    width: 100vw;
+    background-color: #282929;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.brano {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.like_folder {
+    display: flex;
+    align-items: center;
+}
+
+/*Modificata l'immagine per una miglior estetica */
+
+.brano img {
+    height: 70px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.testo {
+    padding-left: 10px;
+}
+
+.testo div:first-child {
+    color: white;
+}
+
+.testo div:last-child {
+    color: #6c6c6d;
+}
+
+.comand {
+    width: 60%;
+    background-color: brown;
+}
+
+.audio {
+    width: 20%;
+    background-color: blue;
+}
+
+.like, .folder {
+    padding: 0 10px;
+    color: #6c6c6d;
+}
+
+
