@@ -10,7 +10,8 @@
 }
 
 .box {
-    background-color: brown;
+    background-color: black;
+    color: white;
 }
 
 .menu_laterale {
@@ -38,18 +39,33 @@
    display: block;
 }
 
-.logo_mini_menu {
+.logo {
     padding: 10px;
 }
 
-.logo {
-    padding: 10px;
+.cl {
+    color: #6c6c6d;
+}
+
+.cl:hover {
+    color: white;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
+}
+
+.home {
+    border-left: 3px solid green;
+    padding: 10px;
+}
+ 
+.logo, 
+.cerca, 
+.libreria {
+    padding: 10px;
 }
 
 .container img{
@@ -64,4 +80,35 @@
 .container_footer {
     height: 10vh;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.playlist {
+    padding: 10px;
+}
+
+.playlist span:first-child {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.add {
+    display: flex;
+    flex-direction: row;
+}
+
+.add span {
+    padding-left: 10px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.add .fa-square-plus {
+    font-size: 50px;
+}
+
+.nome_playlist p{
+    padding: 15px 0;
+    font-size: 20px;
 }
