@@ -38,9 +38,16 @@
    padding: 10px 20px;
    border-radius: 25px;
    text-transform: uppercase;
+   display: block;
 }
 
+.logo {
+    padding: 10px;
+}
 
+.container img{
+    height: 20px;
+}
 
 .container_footer {
     height: 10vh;
