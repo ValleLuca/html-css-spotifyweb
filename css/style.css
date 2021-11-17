@@ -17,24 +17,25 @@
 }
 
 .playlist {
-    min-width: 15%;
+    width: 15%;
     height: 90vh;
 }
 
 .song {
-    min-width: 85%;
+    width: 85%;
     height: 90vh;
 }
 
 .upgrade {
-    width: 100%;
+    width: 85%;
     height: 100px;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
 }
 
-.button_upgrade {
-    display: flex;
-    
+.button_upgrade a{
+    position: relative;
+    top: 10px;
+    left: 20px;
 
 }
