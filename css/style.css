@@ -39,3 +39,10 @@
    border-radius: 25px;
    text-transform: uppercase;
 }
+
+
+
+.container_footer {
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
