@@ -146,6 +146,7 @@ li:hover {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
+    min-height: 350px;
 }
 
 .recently_played_title{
@@ -169,19 +170,39 @@ li:hover {
 .cover p:last-child {
     color: #6c6c6d;
 }
-    
 
+.ForYou_title {
+    margin: 0 0 30px 40px;
+}
 
+.ForYou_title h3 {
+    margin-bottom: 10px;
+}
 
+.ForYou_title p {
+    color: #6c6c6d;
+}
 
+.ForYou {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
 
+.Radar_release {
+    height: 225px;
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
 
-
-
-
-
-
-
+.Radar_release p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+}
 
 
 
