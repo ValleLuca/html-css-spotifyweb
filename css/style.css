@@ -168,7 +168,8 @@
 
 .audio {
     width: 20%;
-    background-color: blue;
+    display: flex;
+    align-items: center;
 }
 
 .like, .folder {
@@ -223,4 +224,28 @@
     transform: translateY(-50%);
     background-color: white;
     border-radius: 50px;
+}
+
+.comandi_audio {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
+
+.comandi_audio i {
+    padding: 0 10px;
+}
+
+.volume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.volume_1 {
+    height: 3px;
+    background-color: #6c6c6d;
+    width: 200px;
+    margin-top: 20px;
 }
