@@ -14,13 +14,14 @@
 }
 
 .menu_laterale {
-    width: 15%;
+    width: 250px;
     height: 90vh;
     background-color: #010001;
+    position: relative;
 }
 
 .song {
-    width: 85%;
+    width: 100%;
     height: 90vh;
     background-color: #151923;
     overflow-y: auto;
@@ -28,7 +29,7 @@
 }
 
 .upgrade {
-    width: 85%;
+    width: 88%;
     height: 100px;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
@@ -84,6 +85,12 @@
     margin-bottom: 30px;
 }
 
+.home img,
+.cerca img, 
+.libreria img {
+    padding-right: 10px;
+}
+
 .container img{
     height: 40px;
 }
@@ -96,7 +103,6 @@
 .playlist {
     padding: 0 0 0 25px;
     min-height: 400px;
-    position: relative;
 }
 
 .playlist span:first-child {
@@ -112,13 +118,13 @@
 
 .add span {
     padding-left: 10px;
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     align-items: center;
 }
 
 .add .fa-square-plus {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .nome_playlist p{
@@ -130,6 +136,9 @@
     display: flex;
     flex-direction: column;
     margin: 0 25px 0 25px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
 }
 
 .App {
@@ -206,26 +215,27 @@ li:hover {
     color: #6c6c6d;
 }
 
-.ForYou_title {
+.ForYou_title, .Artist_title {
     margin: 0 0 30px 40px;
 }
 
-.ForYou_title h3 {
+.ForYou_title h3, .Artist_title h3 {
     margin-bottom: 10px;
 }
 
-.ForYou_title p {
+.ForYou_title p, .Artist_title p {
     color: #6c6c6d;
 }
 
-.ForYou {
+.ForYou, .Artist {
     width: 95%;
+    height: 290px;
     margin: auto;
     display: flex;
     flex-direction: row;
 }
 
-.Radar_release {
+.Radar_release, .Artist_1 {
     height: 225px;
     width: 225px;
     display: flex;
@@ -239,6 +249,15 @@ li:hover {
     font-size: 18px;
 }
 
+.Artist_1 img {
+    border-radius: 50%;
+}
+
+.Artist_1 p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
 
 
 
