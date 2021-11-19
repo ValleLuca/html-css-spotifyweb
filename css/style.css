@@ -60,6 +60,7 @@
 
 .cl:hover {
     color: white;
+    cursor: pointer;
 }
 
 .container {
@@ -243,8 +244,8 @@ li:hover {
 
 
 .container_footer {
-    height: 10vh;
     width: 100vw;
+    height: 105px;
     background-color: #282929;
     position: fixed;
     bottom: 0;
@@ -255,7 +256,7 @@ li:hover {
 }
 
 .brano {
-    width: 20%;
+    width: 250px;
     display: flex;
     align-items: center;
 }
@@ -285,6 +286,12 @@ li:hover {
     color: #6c6c6d;
 }
 
+.testo div:last-child:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .audio {
     width: 20%;
     display: flex;
@@ -306,7 +313,7 @@ li:hover {
 }
 
 .fa-random, .fa-backward-step, .fa-forward-step, .fa-arrow-rotate-right{
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     padding: 10px 20px;
     cursor: pointer;
@@ -319,6 +326,7 @@ li:hover {
     padding: 5px 5px;
     border: 5px solid white;
 }
+
 
 .barra_musicale {
     height: 3px;
