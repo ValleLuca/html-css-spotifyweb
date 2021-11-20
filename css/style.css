@@ -214,6 +214,19 @@ li:hover {
     margin-right: 30px;
 }
 
+.box_img {
+    transition: grayscale 5s;
+}
+
+.box_img:hover {
+    cursor: pointer;
+    filter: grayscale(100%)
+}
+
+.box_img:hover .fa-play-circle {
+    display: block;
+}
+
 .cover p {
     text-align: center;
     padding-top: 10px;
@@ -368,8 +381,18 @@ li:hover {
     cursor: pointer;
 }
 
+
+
+.button_command {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .fa-play-circle {
-    height: 40px;
+    width: 60px;
+    text-align: center;
     color: white;
     font-size: 40px;
     padding: 5px 5px;
@@ -426,12 +449,6 @@ li:hover {
 
 .comandi_audio i {
     padding: 0 10px;
-}
-
-.volume {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .volume_1 {
