@@ -233,60 +233,6 @@ li:hover {
     display: block;
 }
 
-@media screen and (max-width: 420px) {
-
-    .menu_laterale {
-        width: 80px;
-    }
-
-    .song {
-        width: calc( 100% - 80px );
-    }
-
-    .menu_superiore {
-        
-    }
-
-    .logo img:first-child {
-        display: none;
-    }
-
-    .logo img:last-child {
-        display: block;
-        height: 70px;
-        padding: 8px 20px 15px 20px;
-    }
-
-    .container span {
-        display: none;
-    }
-
-    .home {
-        padding-left: 20px;
-    }
-
-    .playlist {
-        display: none;
-    }
-
-    .aside-top {
-        height: calc( 100% - 90px );
-    }
-
-    .App span, .User span {
-        display: none;
-    }
-
-    .App i {
-        font-size: 30px;
-    }
-
-    .cover .box_img img{
-
-    }
-
-}
-
 .cover p {
     text-align: center;
     padding-top: 10px;
@@ -515,4 +461,53 @@ li:hover {
     height: 3px;
     background-color: #6c6c6d;
     width: 60%;
+}
+
+@media screen and (max-width: 420px) {
+
+    .menu_laterale {
+        width: 80px;
+    }
+
+    .song {
+        width: calc( 100% - 80px );
+    }
+
+    .menu_superiore {
+        
+    }
+
+    .logo img:first-child {
+        display: none;
+    }
+
+    .logo img:last-child {
+        display: block;
+        height: 70px;
+        padding: 8px 20px 15px 20px;
+    }
+
+    .container span {
+        display: none;
+    }
+
+    .home {
+        padding-left: 20px;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    .aside-top {
+        height: calc( 100% - 90px );
+    }
+
+    .App span, .User span {
+        display: none;
+    }
+
+    .App i {
+        font-size: 30px;
+    }
 }
